@@ -13,9 +13,18 @@ To view the code of this flask app, please see file "check_impolite_pr.py"
 # Steps to test this automation
 
 a. Fork the repo nik-git/king_impolite_pr_check
+
 b. Create a new PR from your fork to merge in nik-git/king_impolite_pr_check Main branch.
+
 c. While creating PR, do not add any words such as Please, appreciate or would be great in description of PR.
+
 d. Click on Create Pull Request button.
+
 e. After few seconds, your PR will be deleted.
+
 f. If you add word please in PR, PR will not be deleted.
+
+See this file for steps with screenshots.
+
+Steps to test Nice Pull Request Challenge.pdf
 
