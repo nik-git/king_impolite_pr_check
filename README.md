@@ -8,6 +8,14 @@ The impolite pull request can be detected as the one that has no “please”, �
 # Objective
 This repo contains the code for flask app that will check if a PR created for this repo in polite or not. If not then close the PR.
 This flask app is hosted on "http://nikhilguptamyid.pythonanywhere.com"
+To view the code of this flask app, please see file "check_impolite_pr.py"
 
 # Steps to test this automation
-### 1. Negative case.
+
+a. Fork the repo nik-git/king_impolite_pr_check
+b. Create a new PR from your fork to merge in nik-git/king_impolite_pr_check Main branch.
+c. While creating PR, do not add any words such as Please, appreciate or would be great in description of PR.
+d. Click on Create Pull Request button.
+e. After few seconds, your PR will be deleted.
+f. If you add word please in PR, PR will not be deleted.
+
