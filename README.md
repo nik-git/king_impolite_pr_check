@@ -6,6 +6,7 @@ The impolite pull request can be detected as the one that has no “please”, �
 “would be great” phrases in the description.
 
 # Objective
+This solution is implemented using webhook in GitHub repo.
 This repo contains the code for flask app that will check if a PR created for this repo in polite or not. If not then close the PR.
 This flask app is hosted on "http://nikhilguptamyid.pythonanywhere.com"
 To view the code of this flask app, please see file "check_impolite_pr.py"
