@@ -29,3 +29,9 @@ See this file for steps with screenshots.
 
 Steps to test Nice Pull Request Challenge.pdf
 
+# Workflow
+1. In this repo : nik-git/king_impolite_pr_check, a webhook is created for PR events.
+2. Whenever a new PR is created, PR event will be generated and this webhook will be tiggered.
+3. This webhook will call API http://nikhilguptamyid.pythonanywhere.com/impolite_pr
+4. This API will check that in PR body any of the polite word is present or not.
+5. If not then that PR will be deleted.
