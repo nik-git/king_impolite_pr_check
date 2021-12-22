@@ -12,6 +12,7 @@ This flask app is hosted on "http://nikhilguptamyid.pythonanywhere.com"
 To view the code of this flask app, please see file "check_impolite_pr.py"
 
 # Steps to test this automation
+DOC : https://github.com/nik-git/king_impolite_pr_check/blob/main/Steps%20to%20test%20Nice%20Pull%20Request%20Challenge.pdf 
 
 a. Fork the repo nik-git/king_impolite_pr_check
 
